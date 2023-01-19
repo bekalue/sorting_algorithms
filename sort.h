@@ -20,12 +20,20 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
-void print_list(const listint_t *list);
-void print_array(const int *array, size_t size);
+void print_list(const listint_t *list);  /* Source File: print_list.c */
+void print_array(const int *array, size_t size); /* Source File: print_array.c */
 
 /*    BUBBLE SORT     */
-void bubble_sort(int *array, size_t size);
+void bubble_sort(int *array, size_t size); /* Source File: 0-bubble_sort.c */
 
 /*   INSERTION SORT  */
-void insertion_sort_list(listint_t **list);
+void insertion_sort_list(listint_t **list); /* Source File: 1-insertion_sort_list.c */
+
+/*   SELECTION SORT */
+void selection_sort(int *array, size_t size); /* Source File: 2-selection_sort.c */
+
+/*   QUICK SORT      */
+void quick_sort(int *array, size_t size); /*source File: 3-quick_sort.c */
+
+
 #endif
