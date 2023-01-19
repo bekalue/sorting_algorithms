@@ -3,8 +3,8 @@
 
 ## task 0
 ```c
-beklaue@Bekalu-PC:/mnt/c/Users/bekal/Documents/GitHub/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 0-bubble_sort.c 0-main.c print_array.c -o bubble
-alex@/tmp/sort$ ./bubble
+beklaue@Bekalu-PC:/GitHub/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 0-bubble_sort.c 0-main.c print_array.c -o bubble
+beklaue@Bekalu-PC:/GitHub/sorting_algorithms$ ./bubble
 19, 48, 99, 71, 13, 52, 96, 73, 86, 7
 
 19, 48, 71, 99, 13, 52, 96, 73, 86, 7
@@ -30,5 +30,53 @@ alex@/tmp/sort$ ./bubble
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
 
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
-beklaue@Bekalu-PC:/mnt/c/Users/bekal/Documents/GitHub/sorting_algorithms$ 
+beklaue@Bekalu-PC:/GitHub/sorting_algorithms$ 
+```
+## task 1
+```c
+beklaue@Bekalu-PC:/GitHub/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
+beklaue@Bekalu-PC:/GitHub/sorting_algorithms$ ./insertion
+19, 48, 99, 71, 13, 52, 96, 73, 86, 7
+
+19, 48, 71, 99, 13, 52, 96, 73, 86, 7
+19, 48, 71, 13, 99, 52, 96, 73, 86, 7
+19, 48, 13, 71, 99, 52, 96, 73, 86, 7
+19, 13, 48, 71, 99, 52, 96, 73, 86, 7
+13, 19, 48, 71, 99, 52, 96, 73, 86, 7
+13, 19, 48, 71, 52, 99, 96, 73, 86, 7
+13, 19, 48, 52, 71, 99, 96, 73, 86, 7
+13, 19, 48, 52, 71, 96, 99, 73, 86, 7
+13, 19, 48, 52, 71, 96, 73, 99, 86, 7
+13, 19, 48, 52, 71, 73, 96, 99, 86, 7
+13, 19, 48, 52, 71, 73, 96, 86, 99, 7
+13, 19, 48, 52, 71, 73, 86, 96, 99, 7
+13, 19, 48, 52, 71, 73, 86, 96, 7, 99
+13, 19, 48, 52, 71, 73, 86, 7, 96, 99
+13, 19, 48, 52, 71, 73, 7, 86, 96, 99
+13, 19, 48, 52, 71, 7, 73, 86, 96, 99
+13, 19, 48, 52, 7, 71, 73, 86, 96, 99
+13, 19, 48, 7, 52, 71, 73, 86, 96, 99
+13, 19, 7, 48, 52, 71, 73, 86, 96, 99
+13, 7, 19, 48, 52, 71, 73, 86, 96, 99
+7, 13, 19, 48, 52, 71, 73, 86, 96, 99
+
+7, 13, 19, 48, 52, 71, 73, 86, 96, 99
+beklaue@Bekalu-PC:/GitHub/sorting_algorithms$
+```
+## task 2
+```c
+beklaue@Bekalu-PC:/GitHub/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 2-main.c 2-selection_sort.c print_array.c -o select
+beklaue@Bekalu-PC:/GitHub/sorting_algorithms$ ./select
+19, 48, 99, 71, 13, 52, 96, 73, 86, 7
+
+7, 48, 99, 71, 13, 52, 96, 73, 86, 19
+7, 13, 99, 71, 48, 52, 96, 73, 86, 19
+7, 13, 19, 71, 48, 52, 96, 73, 86, 99
+7, 13, 19, 48, 71, 52, 96, 73, 86, 99
+7, 13, 19, 48, 52, 71, 96, 73, 86, 99
+7, 13, 19, 48, 52, 71, 73, 96, 86, 99
+7, 13, 19, 48, 52, 71, 73, 86, 96, 99
+
+7, 13, 19, 48, 52, 71, 73, 86, 96, 99
+beklaue@Bekalu-PC:/GitHub/sorting_algorithms$
 ```
