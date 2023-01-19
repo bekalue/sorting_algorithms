@@ -1,6 +1,8 @@
 # 0x1B. C - Sorting algorithms & Big O
 > 7 day project. it was meant to be a [pair programming](https://en.wikipedia.org/wiki/Pair_programming) project but i did it alone.
 
+![Betty style](https://img.shields.io/badge/betty-style%20guide-purple?style=round-square)
+
 ## Learning Objectives
 * At least four different sorting algorithms
 * What is the Big O notation, and how to evaluate the time complexity of an algorithm
