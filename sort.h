@@ -35,5 +35,28 @@ void selection_sort(int *array, size_t size); /* Source File: 2-selection_sort.c
 /*   QUICK SORT      */
 void quick_sort(int *array, size_t size); /*source File: 3-quick_sort.c */
 
+/*   SHELL SORT USING KNUTH SEQUENCE */
+void shell_sort(int *array, size_t size); /* source file: 100-shell_sort.c */
+
+/*   COCKTAIL SHAKER SORT  */
+void cocktail_sort_list(listint_t **list); /* source file: 101-cocktail_sort_list.c*/
+
+/*   COUNTING SORT  */
+void counting_sort(int *array, size_t size); /* source file: 102-counting_sort.c */
+
+/*   MERGE SORT    */
+void merge_sort(int *array, size_t size);  /* source file: 103-merge_sort.c */
+
+/*   HEAP SORT   */
+void heap_sort(int *array, size_t size);  /* SOURCE FILE: 104-heap_sort.c */
+
+/*  RADIX SORT  */
+void radix_sort(int *array, size_t size); /* SOURCE FILE: 105-radix_sort.c */
+
+/*  BITONIC SORT */
+void bitonic_sort(int *array, size_t size); /* SOURCE FILE: 106-bitonic_sort.c */
+
+/*  QUICK SORT USING HOARE PARTITION SCHEME */
+void quick_sort_hoare(int *array, size_t size); /* SOURCE FILE: 107-quick_sort_hoare.c */
 
 #endif
