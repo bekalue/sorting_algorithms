@@ -60,7 +60,7 @@
   7, 13, 19, 48, 52, 71, 73, 86, 96, 99
   alex@/tmp/sort$ 
   ```
-+ [x] 1\. [Insertion sort](https://www.youtube.com/embed/ROalU379l3U)<br/>_**[0-bubble_sort.c](0-bubble_sort.c)**_ sorts a doubly linked list of integers in ascending order using the [Insertion sort](https://en.wikipedia.org/wiki/Insertion_sort) algorithm.
++ [x] 1\. [Insertion sort](https://www.youtube.com/embed/ROalU379l3U)<br/>_**[1-insertion_sort_list.c](1-insertion_sort_list.c)**_ sorts a doubly linked list of integers in ascending order using the [Insertion sort](https://en.wikipedia.org/wiki/Insertion_sort) algorithm.
   + Prototype: `void insertion_sort_list(listint_t **list);`
   + You are not allowed to modify the integer `n` of a node. You have to swap the nodes themselves.
   + You’re expected to print the list after each time you swap two elements
@@ -96,32 +96,6 @@
   13, 19, 48, 7, 52, 71, 73, 86, 96, 99
   13, 19, 7, 48, 52, 71, 73, 86, 96, 99
   13, 7, 19, 48, 52, 71, 73, 86, 96, 99
-  7, 13, 19, 48, 52, 71, 73, 86, 96, 99
-  
-  7, 13, 19, 48, 52, 71, 73, 86, 96, 99
-  alex@/tmp/sort$
-  ```
-+ [x] 2\. [Selection sort](https://www.youtube.com/embed/Ns4TPTC8whw)<br/>_**[2-selection_sort.c](2-selection_sort.c)**_ sorts an array of integers in ascending order using the [Selection sort](https://en.wikipedia.org/wiki/Selection_sort) algorithm.
-  + Prototype: `void selection_sort(int *array, size_t size);`
-  + You’re expected to print the `array` after each time you swap two elements
-  
-  [2-O](2-O) the big O notations of the time complexity of the Insertion sort algorithm, with 1 notation per line:
-  + in the best case
-  + in the average case
-  + in the worst case
-  
-  __Example__:
-  ```c
-  alex@/tmp/sort$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 2-main.c 2-selection_sort.c print_array.c -o select
-  alex@/tmp/sort$ ./select
-  19, 48, 99, 71, 13, 52, 96, 73, 86, 7
-  
-  7, 48, 99, 71, 13, 52, 96, 73, 86, 19
-  7, 13, 99, 71, 48, 52, 96, 73, 86, 19
-  7, 13, 19, 71, 48, 52, 96, 73, 86, 99
-  7, 13, 19, 48, 71, 52, 96, 73, 86, 99
-  7, 13, 19, 48, 52, 71, 96, 73, 86, 99
-  7, 13, 19, 48, 52, 71, 73, 96, 86, 99
   7, 13, 19, 48, 52, 71, 73, 86, 96, 99
   
   7, 13, 19, 48, 52, 71, 73, 86, 96, 99
