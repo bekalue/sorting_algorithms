@@ -454,7 +454,7 @@
   + The pivot should always be the last element of the partition being sorted.
   + You’re expected to print the `array` after each time you swap two elements (See example below)
   
-  [107-O](107-O] the big O notations of the time complexity of the Quick sort algorithm, with 1 notation per line:
+  [107-O](107-O) the big O notations of the time complexity of the Quick sort algorithm, with 1 notation per line:
   + in the best case
   + in the average case
   + in the worst case
